@@ -56,12 +56,10 @@ h1 {
 }
 h1 strong {
     color: aliceblue;
-
 }
 
 h2{
     color: blue;
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 24px;
     margin: 40px 0;
@@ -74,11 +72,7 @@ h2{
   align-items: center;
   justify-content: space-between;
     margin: 0 0 40px 0;
-
-    
-
 }
-
 .hero-image{
   object-fit: cover;
 }
@@ -226,7 +220,6 @@ figure {
 .equipo-title{
     width: 100%;
     text-align: center;
-    text-transform: uppercase;
     font-weight: bold;
     color: #20AE3E;
     
@@ -366,9 +359,7 @@ figure {
     font-size: 14px;
     font-weight: 100;
     text-transform: uppercase;
-
 }
-
 .project-imageContainer {
     width: 50%;
 }
@@ -379,9 +370,6 @@ figure {
 .footer{
     background-color: black;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0 25px;
     flex-wrap: wrap;
 }
@@ -392,20 +380,30 @@ figure {
 .footer a{
     color: white;
 }
+.footer h4{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro'; 
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   /*  justify-content: space-around;
+    justify-content: space-between;*/
+}
+.box--footer-container{
+    width: 28%;
+    border: 1px solid red;
+    flex-shrink: 0;
+    padding: 40px 20px;
+    font-size: 12px;
+}
 .event-Container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.contact{
-    background-color: burlywood;
-    color: blueviolet;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 .social{
     border: 1px solid red;
 }
@@ -620,12 +618,6 @@ figure {
     .event-detail{
         margin: -2em .5em .5em;
         padding: 1em;
-    }
-    .contact{
-        height: auto;
-        padding: 1em 0;
-        text-align: center;
-        display: block;
     }
     .form-email button{
         margin: 1em auto;
