@@ -262,11 +262,45 @@ figure {
     margin-top: 5px;
 }
 
-.mision-vision {
-    background-color: #F5F5F5;
-    margin:30px 0;
+    
+    
+
+.mision {
+    background-image: url('../images/back.jpg');
+    background-color: #cccccc;
+    width: 100%;
+    height: 300px;
+    margin:50px 0 00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.mision-vision-box {
+.mision-box {
+}
+
+.mision-details {
+    width: 100%;
+    font-size: 16px;
+}
+
+.mision-title{
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    font-size: 26px;
+}
+.mision-text{
+    text-align: center;
+    color: #fff;
+    padding: 0 10%;
+    line-height: 175%;
+}
+.vision {
+    background-color: #F5F5F5;
+    margin:0 0 30px 0;
+}
+.vision-box {
     background-color: #F5F5F5;
     display: flex;
     align-items: center;
@@ -274,28 +308,83 @@ figure {
     flex-wrap: wrap;
 }
 
-.mision-vision-details {
+.vision-details {
     width: 100%;
     font-size: 16px;
 }
 
-.mision-vision-title{
+.vision-title{
     text-align: center;
     color: #20AE3E;
     text-transform: none;
     font-size: 26px;
 }
-.mision-vision-text{
+.vision-text{
     text-align: center;
     color: #0D1806;
     padding: 0 10%;
     line-height: 175%;
     margin: 0 0 60px 0;
 }
+.contact {
+    background-color: #0D1806;
+    padding:30px 0;
+}
+.contact-box {
+    background-color: #0D1806;
+}
 
+.contact-details {
+    width: 100%;
+}
+
+.contact-title{
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    font-size: 26px;
+    flex: 1 100%;
+    
+}
+.contact-text{
+    text-align: center;
+    color: #0D1806;
+    padding: 0 10%;
+    line-height: 175%;
+    margin: 0 0 60px 0;
+}
+.container-form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.form-input{
+    display: block;
+    margin-top: 5px;
+    background: transparent;
+    padding: 10px 0;
+    border: solid #4D5D3C 2px;    
+    color: white;
+    width: 47%;
+    margin-top: 20px;
+    margin: 10px;
+}
+.container-button{
+    flex: 1 100%;
+    text-align: center;
+}
+.contact--button{
+    border: 0;
+    margin: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2C663C;
+    padding: 10px 30px;   
+}
 .ejes {
     background-color: #ffffff;
-    margin:40px 0 20px;
+    margin:40px 0 40px;
 }
 .ejes-box {
     background-color: #ffffff;
@@ -340,7 +429,7 @@ figure {
     flex-wrap: inherit;
     }
 .ejesIcon-box{
-
+    padding: 25px 0;
     margin: 0 auto;
     flex-shrink: 0;
     font-size: 18px;
@@ -381,7 +470,7 @@ figure {
     color: white;
 }
 .footer h4{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     font-family: 'Source Sans Pro'; 
 }
@@ -397,7 +486,22 @@ figure {
     border: 1px solid red;
     flex-shrink: 0;
     padding: 40px 20px;
-    font-size: 12px;
+    font-size: 14px;
+}
+.box--footer-colab{
+    margin: 10px
+}
+.box--footer-container h5{
+    font-size: 15px;
+    font-family: 'Source Sans Pro';
+    color: #20AE3E;
+}
+.box--footer-container p{
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+}
+.columns{
+    display: flex;
 }
 .event-Container{
     display: flex;
@@ -426,30 +530,6 @@ figure {
 }
 .social-link.4{
     background-image: url('../images/1.svg');
-}
-.form-email input {
-    border-color: chartreuse;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 10px 20px 10px 25px;
-    background-image: url(../images/favicon.png);
-    background-size: 15px 15px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 5px;
-}
-.form-email button{
-    display: block;
-    margin-top: 5px;
-    background: transparent;
-    padding: 10px 0;
-    border-radius: 5px;    
-    color: white;
-    width: 100px;
-    margin-top: 10px;
-}
-.form-email h3{
-    font-family: 'Inria Serif', serif;
 }
 .wrapper-container {
     /*border: 1px solid red;*/
