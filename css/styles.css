@@ -1,3 +1,6 @@
+*{
+    /* outline:1px solid red; */
+}
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?35evw5');
@@ -10,587 +13,565 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-menu:before {
-  content: "\e9bd";
-}
-
-body {
-    font-family: 'Source Sans Pro';
-    
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Source Sans Pro', ;
-    font-family: 'Turret Road';
-    font-weight: normal;
-}
-h1 {
-    font-size: 36px;
-    line-height: 1.5;
-    letter-spacing: -1px;
-    color: white;
-    margin: 0;
-    font-family: 'Source Sans Pro';
-    
-}
-h1 strong {
-    color: aliceblue;
-}
-
-h2{
-    color: blue;
-    font-weight: bold;
-    font-size: 24px;
-    margin: 40px 0;
-}
-
-.hero {
-  height: 350px;
-  background-color: #20AE3E;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-    margin: 0 0 40px 0;
-}
-.hero-image{
-  object-fit: cover;
-}
-
-.header {
-    background-color: white;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 90px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    flex-wrap: wrap;
-}
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-}
-figure {
-    margin: 0;
-}
-.menu {
-    height: inherit;
-}
-.header ul {
-    display: flex;
-    height: inherit;
-}
-.header ul li {
-    height: inherit;
-    margin: 0 10px;
-    font-size: 14px;
-}
-.header a {
-    color: #1C69D1;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-     font-family: 'Source Sans Pro';
-}
-
-.donate{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header button{
-    border: 1px solid red;
-    font-size: 12px;
-    text-transform: uppercase;
-    background-color: #1B6BD1;
-    color: white;
-    padding: 10px 25px;
-    
-}
-.flexbox{
-       /*border: 1px solid red;*/
-    max-width: 1000px;
-/*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    }
-.box{
-    margin: 0 auto;
-    flex-shrink: 0;
-    font-size: 18px;
-    color: #532C0F;
-    font-weight: 600;
-}
-
-.icon-principal{
-        padding: 0 40px;
-}
-.text-bullet{
-        padding: 0 40px;
-    font-size: 18px;
-    color: #532C0F;
-    font-weight: 600;
-    font-family: 'Source Sans Pro';
-}
-.about {
-    background-color: #20AE3E;
-    margin: 20px 0 0 0;
-}
-.quienessomos-box {
-    background-color: #20AE3E;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.quienessomos-details {
-    width: 100%;
-    font-size: 16px;
-}
-
-.quienessomos-title{
-    text-align: center;
-    color: white;
-    text-transform: none;
-    font-size: 26px;
-}
-.quienessomos-text{
-    text-align: center;
-    color: white;
-    padding: 0 10%;
-    line-height: 175%;
-}
-.valores{
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro';
-    font-size: 16px;
-    font-weight: bold;
-    padding: 40px 0 0;
-}
-.flexbox2{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 6% 40px;
-    
-}
-.box2{
-    flex-shrink: 0;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    color: white;
-}
-.equipo-title{
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    color: #20AE3E;
-    
-}
-.flexbox4{
-       /*border: 1px solid red;*/
-    max-width: 1000px;
-/*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    }
-.box4{
-    width: 25%;
-    text-align: center;
-    flex-shrink: 0;
-    color: #0D1806;
-}
-
-.name {
-    font-size: 18px;
-    margin: 0;
-    margin-top: 20px;
-}
-.post-1 {
-    font-size: 14px;
-    margin: 0;
-    margin-top: 5px;
-    color: #532C0F;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.post-2 {
-    font-size: 14px;
-    margin: 0;
-    margin-top: 5px;
-}
-
-    
-    
-
-.mision {
-    background-image: url('../images/back.jpg');
-    background-color: #cccccc;
-    width: 100%;
-    height: 300px;
-    margin:50px 0 00;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.mision-box {
-}
-
-.mision-details {
-    width: 100%;
-    font-size: 16px;
-}
-
-.mision-title{
-    text-align: center;
-    color: #fff;
-    text-transform: none;
-    font-size: 26px;
-}
-.mision-text{
-    text-align: center;
-    color: #fff;
-    padding: 0 10%;
-    line-height: 175%;
-}
-.vision {
-    background-color: #F5F5F5;
-    margin:0 0 30px 0;
-}
-.vision-box {
-    background-color: #F5F5F5;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.vision-details {
-    width: 100%;
-    font-size: 16px;
-}
-
-.vision-title{
-    text-align: center;
-    color: #20AE3E;
-    text-transform: none;
-    font-size: 26px;
-}
-.vision-text{
-    text-align: center;
-    color: #0D1806;
-    padding: 0 10%;
-    line-height: 175%;
-    margin: 0 0 60px 0;
-}
-.contact {
-    background-color: #0D1806;
-    padding:30px 0;
-}
-.contact-box {
-    background-color: #0D1806;
-}
-
-.contact-details {
-    width: 100%;
-}
-
-.contact-title{
-    text-align: center;
-    color: #fff;
-    text-transform: none;
-    font-size: 26px;
-    flex: 1 100%;
-    
-}
-.contact-text{
-    text-align: center;
-    color: #0D1806;
-    padding: 0 10%;
-    line-height: 175%;
-    margin: 0 0 60px 0;
-}
-.container-form{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-.form-input{
-    display: block;
-    margin-top: 5px;
-    background: transparent;
-    padding: 10px 0;
-    border: solid #4D5D3C 2px;    
-    color: white;
-    width: 47%;
-    margin-top: 20px;
-    margin: 10px;
-}
-.container-button{
-    flex: 1 100%;
-    text-align: center;
-}
-.contact--button{
-    border: 0;
-    margin: 40px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #2C663C;
-    padding: 10px 30px;   
-}
-.ejes {
-    background-color: #ffffff;
-    margin:40px 0 40px;
-}
-.ejes-box {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.ejes-details {
-    width: 100%;
-    font-size: 16px;
-}
-
-.ejes-title{
-    text-align: center;
-    color: #20AE3E;
-    text-transform: none;
-    font-size: 26px;
-    margin: 0;
-}
-.ejes-text{
-    text-align: center;
-    color: #0D1806;
-    padding: 0 10%;
-    line-height: 175%;
-}
-.ejesIcon-Container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.ejesIcon-flexbox{
-       /*border: 1px solid red;*/
-    max-width: 1000px;
-/*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    }
-.ejesIcon-box{
-    padding: 25px 0;
-    margin: 0 auto;
-    flex-shrink: 0;
-    font-size: 18px;
-    color: #532C0F;
-    font-weight: 600;
-    
-}
-.ejesIcon-image{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 40px;
-}
-.ejesIcon-concept{
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 14px;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-.project-imageContainer {
-    width: 50%;
-}
-.project-imageContainer img {
-    max-width: 100%;
-    width: 100%;
-}
-.footer{
-    background-color: black;
-    color: white;
-    padding: 0 25px;
-    flex-wrap: wrap;
-}
-.footer img{
-    vertical-align: middle;
-}
-
-.footer a{
-    color: white;
-}
-.footer h4{
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Source Sans Pro'; 
-}
-.footer-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-   /*  justify-content: space-around;
-    justify-content: space-between;*/
-}
-.box--footer-container{
-    width: 28%;
-    border: 1px solid red;
-    flex-shrink: 0;
-    padding: 40px 20px;
-    font-size: 14px;
-}
-.box--footer-colab{
-    margin: 10px
-}
-.box--footer-container h5{
-    font-size: 15px;
-    font-family: 'Source Sans Pro';
-    color: #20AE3E;
-}
-.box--footer-container p{
-    font-size: 14px;
-    font-family: 'Source Sans Pro';
-}
-.columns{
-    display: flex;
-}
-.event-Container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.social{
-    border: 1px solid red;
-}
-.social-link {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-    display: inline-block;
-    border: 1px solid white;
-    background-size: 50px 50px;
-}
-.social-link.1{
-    background-image: url('../images/1.svg');
-}
-.social-link.2{
-    background-image: url('../images/1.svg');   
-}
-.social-link.3{
-    background-image: url('../images/1.svg');    
-}
-.social-link.4{
-    background-image: url('../images/1.svg');
-}
-.wrapper-container {
-    /*border: 1px solid red;*/
-    max-width: 1000px;
-/*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    }
-.burger-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(23,334,45,.5);
-    display: none;
-    line-height: 40px;
-    text-align: center;
-    position: fixed;
-    z-index: 4;
-    left: 5px;
-    top: 5px;
-    color: white;
-}
-
-
-@media screen and (max-width: 1024px){
-    .container{
-        padding: 0 1em;
-    }
-    
-         .hero{
-        height: auto;
-         position: relative;
-             overflow: hidden;
-             padding: 2em;
-
-    }
-    .hero-image{
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-    
-    }
-   
-     h1{
-        font-size: 2em;
-         z-index: 2;
-    }
-
-}
     
 @media screen and (max-width: 767px){
+    [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
     
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-menu:before {
+        content: "\e9bd";
+    }
+    
+    body {
+        font-family: 'Source Sans Pro';
+        
+        margin: 0;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Source Sans Pro', ;
+        font-family: 'Turret Road';
+        font-weight: normal;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+        letter-spacing: -1px;
+        color: white;
+        margin: 0;
+        font-family: 'Source Sans Pro';
+        
+    }
+    h1 strong {
+        color: aliceblue;
+    }
+    
+    h2{
+        color: blue;
+        font-weight: bold;
+        font-size: 24px;
+        margin: 40px 0;
+    }
+    
+    .hero {
+        height: 350px;
+        background-color: #20AE3E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0 40px 0;
+    }
+    .hero-image{
+        object-fit: cover;
+    }
+    
+    .header {
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    ol,
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    
+    }
+    figure {
+        margin: 0;
+    }
+    .menu {
+        height: inherit;
+    }
+    .header ul {
+        display: flex;
+        height: inherit;
+    }
+    .header ul li {
+        height: inherit;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .header a {
+        color: #1C69D1;
+        text-decoration: none;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        font-family: 'Source Sans Pro';
+    }
+    
+    .donate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header button{
+        border: 1px solid red;
+        font-size: 12px;
+        text-transform: uppercase;
+        background-color: #1B6BD1;
+        color: white;
+        padding: 10px 25px;
+        
+    }
+    .flexbox{
+            /*border: 1px solid red;*/
+        max-width: 1000px;
+    /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        }
+    .box{
+        margin: 0 auto;
+        flex-shrink: 0;
+        font-size: 18px;
+        color: #532C0F;
+        font-weight: 600;
+    }
+    
+    .icon-principal{
+            padding: 0 40px;
+    }
+    .text-bullet{
+            padding: 0 40px;
+        font-size: 18px;
+        color: #532C0F;
+        font-weight: 600;
+        font-family: 'Source Sans Pro';
+    }
+    .about {
+        background-color: #20AE3E;
+        margin: 20px 0 0 0;
+    }
+    .quienessomos-box {
+        background-color: #20AE3E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .quienessomos-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .quienessomos-title{
+        text-align: center;
+        color: white;
+        text-transform: none;
+        font-size: 26px;
+    }
+    .quienessomos-text{
+        text-align: center;
+        color: white;
+        padding: 0 10%;
+        line-height: 175%;
+    }
+    .valores{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro';
+        font-size: 16px;
+        font-weight: bold;
+        padding: 40px 0 0;
+    }
+    .flexbox2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 6% 40px;
+        
+    }
+    .box2{
+        flex-shrink: 0;
+        margin: 0 auto;
+        padding: 25px;
+        text-align: center;
+        color: white;
+    }
+    .equipo-title{
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: #20AE3E;
+        
+    }
+    .flexbox4{
+            /*border: 1px solid red;*/
+        max-width: 1000px;
+    /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        }
+    .box4{
+        width: 25%;
+        text-align: center;
+        flex-shrink: 0;
+        color: #0D1806;
+        padding: 20px 15px;
+    
+    }
+    
+    .name {
+        font-size: 18px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .post-1 {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 5px;
+        color: #532C0F;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .post-2 {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 5px;
+    }
+    
+        
+        
+    
+    .mision {
+        background-image: url('../images/back.jpg');
+        background-color: #cccccc;
+        width: 100%;
+        height: 300px;
+        margin:50px 0 00;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .mision-box {
+    }
+    
+    .mision-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .mision-title{
+        text-align: center;
+        color: #fff;
+        text-transform: none;
+        font-size: 26px;
+    }
+    .mision-text{
+        text-align: center;
+        color: #fff;
+        padding: 0 10%;
+        line-height: 175%;
+    }
+    .vision {
+        background-color: #F5F5F5;
+        margin:0 0 30px 0;
+    }
+    .vision-box {
+        background-color: #F5F5F5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .vision-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .vision-title{
+        text-align: center;
+        color: #20AE3E;
+        text-transform: none;
+        font-size: 26px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .vision-text{
+        text-align: center;
+        color: #0D1806;
+        padding: 0 10%;
+        line-height: 175%;
+        margin: 0 0 60px 0;
+    }
+    .contact {
+        background-color: #0D1806;
+        padding:30px 0;
+    }
+    .contact-box {
+        background-color: #0D1806;
+    }
+    
+    .contact-details {
+        width: 100%;
+    }
+    
+    .contact-title{
+        text-align: center;
+        color: #fff;
+        text-transform: none;
+        font-size: 26px;
+        flex: 1 100%;
+        
+    }
+    .contact-text{
+        text-align: center;
+        color: #0D1806;
+        padding: 0 10%;
+        line-height: 175%;
+        margin: 0 0 60px 0;
+    }
+    .container-form{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .form-input{
+        display: block;
+        margin-top: 5px;
+        background: transparent;
+        padding: 10px 0;
+        border: solid #4D5D3C 2px;    
+        color: white;
+        width: 47%;
+        margin-top: 20px;
+        margin: 10px;
+    }
+    .container-button{
+        flex: 1 100%;
+        text-align: center;
+    }
+    .contact--button{
+        border: 0;
+        margin: 40px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #2C663C;
+        padding: 10px 30px;   
+    }
+    .ejes {
+        background-color: #ffffff;
+        margin:40px 0 40px;
+    }
+    .ejes-box {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .ejes-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .ejes-title{
+        text-align: center;
+        color: #20AE3E;
+        text-transform: none;
+        font-size: 26px;
+        margin: 0;
+    }
+    .ejes-text{
+        text-align: center;
+        color: #0D1806;
+        padding: 0 10%;
+        line-height: 175%;
+    }
+    
+    .ejesIcon-Container{
+        display: flex;
+        justify-content: center
+    }
+    .ejesIcon-flexbox{
+        display: flex;
+        flex-flow: wrap;
+        width: 70%;
+    
+    }
+    .ejesIcon-box{
+    
+    }
+    .ejesIcon-flexbox .ejesIcon-box{
+        padding: 25px 0;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #532C0F;
+        font-weight: 600;
+        width: 33%;
+        display: flex;
+    }
+    .ejesIcon-image{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 40px;
+    }
+    .ejesIcon-concept{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    .project-imageContainer {
+        width: 50%;
+    }
+    .project-imageContainer img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 0 25px;
+        flex-wrap: wrap;
+    }
+    .footer img{
+        vertical-align: middle;
+    }
+    
+    .footer a{
+        color: white;
+    }
+    .footer h4{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro'; 
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /*  justify-content: space-around;
+        justify-content: space-between;*/
+    }
+    .box--footer-container{
+        width: 28%;
+        border: 1px solid red;
+        flex-shrink: 0;
+        padding: 40px 20px;
+        font-size: 14px;
+    }
+    .box--footer-colab{
+        margin: 10px
+    }
+    .box--footer-container h5{
+        font-size: 15px;
+        font-family: 'Source Sans Pro';
+        color: #20AE3E;
+    }
+    .box--footer-container p{
+        font-size: 14px;
+        font-family: 'Source Sans Pro';
+    }
+    .columns{
+        display: flex;
+    }
+    .event-Container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .social{
+        border: 1px solid red;
+    }
+    .social-link {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        display: inline-block;
+        border: 1px solid white;
+        background-size: 50px 50px;
+    }
+    .social-link.1{
+        background-image: url('../images/1.svg');
+    }
+    .social-link.2{
+        background-image: url('../images/1.svg');   
+    }
+    .social-link.3{
+        background-image: url('../images/1.svg');    
+    }
+    .social-link.4{
+        background-image: url('../images/1.svg');
+    }
+    .wrapper-container {
+        /*border: 1px solid red;*/
+        max-width: 1000px;
+    /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        }
+    .burger-button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(23,334,45,.5);
+        display: none;
+        line-height: 40px;
+        text-align: center;
+        position: fixed;
+        z-index: 4;
+        left: 5px;
+        top: 5px;
+        color: white;
+        
+    }
+    .footer-images{
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .burger-button{
        display: block;
     }
@@ -674,20 +655,29 @@ figure {
     width: 100%;
     height: auto;
 }
-.flexible-video{
+    .flexible-video{
+            width: 100%;
+        padding-top: 56.25%;
+        height: 0;
+        position: relative;
+    }
+    .flexbox4{
+        outline: 5px solid red;
+        
+    }
+    .flexbox4 .box4{
+            width: 50%;
+            margin-bottom: 20px;
+    }
+
+    .ejesIcon-flexbox .ejesIcon-box{
         width: 100%;
-    padding-top: 56.25%;
-    height: 0;
-    position: relative;
-}
-}
-    
-@media screen and (max-width: 501px){
+    }
     h1{
         font-size: 1.5em;
     }
     
-
+    
         
     
     
@@ -710,17 +700,1266 @@ figure {
         text-align: center;
         border: 1px solid transparent; 
     }
+    h1{
+           font-size: 1.2em;
+        background: rgba(0,0,0,.5)
+       }
+       
+       .hero{
+           padding: 2em 1em;
+       }
+
+    .footer {
+        display: flex;
+        text-align: center;
+        border: 1px solid transparent;
+        flex-direction: column;
+    }
+    .footer-container {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .box--footer-container {
+        width: 100%;
+        padding: 40px 20px;
+        font-size: 14px;
+    }
+    .footer img{
+        vertical-align: middle;
+        width: 30%;
+    }
+    .ejesIcon-flexbox{
+        width: 95%;
+    }
+    .ejesIcon-flexbox .ejesIcon-box{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ejesIcon-concept{
+        text-align: center;
+    }
+    .quienessomos-title,.equipo-title{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form-input{
+        width: 100%;
+    }
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+    
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-menu:before {
+        content: "\e9bd";
+    }
+    
+    body {
+        font-family: 'Source Sans Pro';
+        
+        margin: 0;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Source Sans Pro', ;
+        font-family: 'Turret Road';
+        font-weight: normal;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+        letter-spacing: -1px;
+        color: white;
+        margin: 0;
+        font-family: 'Source Sans Pro';
+        
+    }
+    h1 strong {
+        color: aliceblue;
+    }
+    
+    h2{
+        color: blue;
+        font-weight: bold;
+        font-size: 24px;
+        margin: 40px 0;
+    }
+    
+    .hero {
+        height: 350px;
+        background-color: #20AE3E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0 40px 0;
+    }
+    .hero-image{
+        object-fit: cover;
+    }
+    
+    .header {
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    ol,
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    
+    }
+    figure {
+        margin: 0;
+    }
+    .menu {
+        height: inherit;
+    }
+    .header ul {
+        display: flex;
+        height: inherit;
+    }
+    .header ul li {
+        height: inherit;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .header a {
+        color: #1C69D1;
+        text-decoration: none;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        font-family: 'Source Sans Pro';
+    }
+    
+    .donate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header button{
+        border: 1px solid red;
+        font-size: 12px;
+        text-transform: uppercase;
+        background-color: #1B6BD1;
+        color: white;
+        padding: 10px 25px;
+        
+    }
+    .flexbox{
+            /*border: 1px solid red;*/
+        max-width: 1000px;
+    /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        }
+    .box{
+        margin: 0 auto;
+        flex-shrink: 0;
+        font-size: 18px;
+        color: #532C0F;
+        font-weight: 600;
+    }
+    
+    .icon-principal{
+            padding: 0 40px;
+    }
+    .text-bullet{
+            padding: 0 40px;
+        font-size: 18px;
+        color: #532C0F;
+        font-weight: 600;
+        font-family: 'Source Sans Pro';
+    }
+    .about {
+        background-color: #20AE3E;
+        margin: 20px 0 0 0;
+    }
+    .quienessomos-box {
+        background-color: #20AE3E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .quienessomos-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .quienessomos-title{
+        text-align: center;
+        color: white;
+        text-transform: none;
+        font-size: 26px;
+    }
+    .quienessomos-text{
+        text-align: center;
+        color: white;
+        padding: 0 10%;
+        line-height: 175%;
+    }
+    .valores{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro';
+        font-size: 16px;
+        font-weight: bold;
+        padding: 40px 0 0;
+    }
+    .flexbox2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 6% 40px;
+        
+    }
+    .box2{
+        flex-shrink: 0;
+        margin: 0 auto;
+        padding: 25px;
+        text-align: center;
+        color: white;
+    }
+    .equipo-title{
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: #20AE3E;
+        
+    }
+    .flexbox4{
+            /*border: 1px solid red;*/
+        max-width: 1000px;
+    /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        }
+    .box4{
+        width: 25%;
+        text-align: center;
+        flex-shrink: 0;
+        color: #0D1806;
+        padding: 20px 15px;
+    
+    }
+    
+    .name {
+        font-size: 18px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .post-1 {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 5px;
+        color: #532C0F;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .post-2 {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 5px;
+    }
+    
+        
+        
+    
+    .mision {
+        background-image: url('../images/back.jpg');
+        background-color: #cccccc;
+        width: 100%;
+        height: 300px;
+        margin:50px 0 00;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .mision-box {
+    }
+    
+    .mision-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .mision-title{
+        text-align: center;
+        color: #fff;
+        text-transform: none;
+        font-size: 26px;
+    }
+    .mision-text{
+        text-align: center;
+        color: #fff;
+        padding: 0 10%;
+        line-height: 175%;
+    }
+    .vision {
+        background-color: #F5F5F5;
+        margin:0 0 30px 0;
+    }
+    .vision-box {
+        background-color: #F5F5F5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .vision-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .vision-title{
+        text-align: center;
+        color: #20AE3E;
+        text-transform: none;
+        font-size: 26px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .vision-text{
+        text-align: center;
+        color: #0D1806;
+        padding: 0 10%;
+        line-height: 175%;
+        margin: 0 0 60px 0;
+    }
+    .contact {
+        background-color: #0D1806;
+        padding:30px 0;
+    }
+    .contact-box {
+        background-color: #0D1806;
+    }
+    
+    .contact-details {
+        width: 100%;
+    }
+    
+    .contact-title{
+        text-align: center;
+        color: #fff;
+        text-transform: none;
+        font-size: 26px;
+        flex: 1 100%;
+        
+    }
+    .contact-text{
+        text-align: center;
+        color: #0D1806;
+        padding: 0 10%;
+        line-height: 175%;
+        margin: 0 0 60px 0;
+    }
+    .container-form{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .form-input{
+        display: block;
+        margin-top: 5px;
+        background: transparent;
+        padding: 10px 0;
+        border: solid #4D5D3C 2px;    
+        color: white;
+        width: 47%;
+        margin-top: 20px;
+        margin: 10px;
+    }
+    .container-button{
+        flex: 1 100%;
+        text-align: center;
+    }
+    .contact--button{
+        border: 0;
+        margin: 40px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #2C663C;
+        padding: 10px 30px;   
+    }
+    .ejes {
+        background-color: #ffffff;
+        margin:40px 0 40px;
+    }
+    .ejes-box {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .ejes-details {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .ejes-title{
+        text-align: center;
+        color: #20AE3E;
+        text-transform: none;
+        font-size: 26px;
+        margin: 0;
+    }
+    .ejes-text{
+        text-align: center;
+        color: #0D1806;
+        padding: 0 10%;
+        line-height: 175%;
+    }
+    
+    .ejesIcon-Container{
+        display: flex;
+        justify-content: center
+    }
+    .ejesIcon-flexbox{
+        display: flex;
+        flex-flow: wrap;
+        width: 70%;
+    
+    }
+    .ejesIcon-box{
+    
+    }
+    .ejesIcon-flexbox .ejesIcon-box{
+        padding: 25px 0;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #532C0F;
+        font-weight: 600;
+        width: 33%;
+        display: flex;
+    }
+    .ejesIcon-image{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 40px;
+    }
+    .ejesIcon-concept{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    .project-imageContainer {
+        width: 50%;
+    }
+    .project-imageContainer img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 0 25px;
+        flex-wrap: wrap;
+    }
+    .footer img{
+        vertical-align: middle;
+    }
+    
+    .footer a{
+        color: white;
+    }
+    .footer h4{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro'; 
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /*  justify-content: space-around;
+        justify-content: space-between;*/
+    }
+    .box--footer-container{
+        width: 28%;
+        border: 1px solid red;
+        flex-shrink: 0;
+        padding: 40px 20px;
+        font-size: 14px;
+    }
+    .box--footer-colab{
+        margin: 10px
+    }
+    .box--footer-container h5{
+        font-size: 15px;
+        font-family: 'Source Sans Pro';
+        color: #20AE3E;
+    }
+    .box--footer-container p{
+        font-size: 14px;
+        font-family: 'Source Sans Pro';
+    }
+    .columns{
+        display: flex;
+    }
+    .event-Container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .social{
+        border: 1px solid red;
+    }
+    .social-link {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        display: inline-block;
+        border: 1px solid white;
+        background-size: 50px 50px;
+    }
+    .social-link.1{
+        background-image: url('../images/1.svg');
+    }
+    .social-link.2{
+        background-image: url('../images/1.svg');   
+    }
+    .social-link.3{
+        background-image: url('../images/1.svg');    
+    }
+    .social-link.4{
+        background-image: url('../images/1.svg');
+    }
+    .wrapper-container {
+        /*border: 1px solid red;*/
+        max-width: 1000px;
+    /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+        flex: 1;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        }
+    .burger-button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(23,334,45,.5);
+        display: none;
+        line-height: 40px;
+        text-align: center;
+        position: fixed;
+        z-index: 4;
+        left: 5px;
+        top: 5px;
+        color: white;
+        
+    }
+    .footer-images{
+        display: block;
+        width: 72%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .header {
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        height: 120px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .menu {
+        height: auto;
+    }
+    .quienessomos-title,.equipo-title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .ejesIcon-image{
+        padding: 0 20px;
+    }
+    .ejesIcon-flexbox {
+        display: flex;
+        flex-flow: wrap;
+        width: 90%;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-images{
+        display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .footer-images img{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        padding: 0 1em;
+    }
+    
+         .hero{
+        height: auto;
+         position: relative;
+             overflow: hidden;
+             padding: 2em;
+
+    }
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    
+    }
+   
+     h1{
+        font-size: 2em;
+         z-index: 2;
+    }
+    .footer-images{
+        display: block;
+        width: 72%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+        [class^="icon-"], [class*=" icon-"] {
+            /* use !important to prevent issues with browser extensions that change fonts */
+            font-family: 'icomoon' !important;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+        
+            /* Better Font Rendering =========== */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .icon-menu:before {
+            content: "\e9bd";
+        }
+        
+        body {
+            font-family: 'Source Sans Pro';
+            
+            margin: 0;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Source Sans Pro', ;
+            font-family: 'Turret Road';
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 36px;
+            line-height: 1.5;
+            letter-spacing: -1px;
+            color: white;
+            margin: 0;
+            font-family: 'Source Sans Pro';
+            
+        }
+        h1 strong {
+            color: aliceblue;
+        }
+        
+        h2{
+            color: blue;
+            font-weight: bold;
+            font-size: 24px;
+            margin: 40px 0;
+        }
+        
+        .hero {
+            height: 350px;
+            background-color: #20AE3E;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 0 40px 0;
+        }
+        .hero-image{
+            object-fit: cover;
+        }
+        
+        .header {
+            background-color: white;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            height: 90px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        
+        }
+        figure {
+            margin: 0;
+        }
+        .menu {
+            height: inherit;
+        }
+        .header ul {
+            display: flex;
+            height: inherit;
+        }
+        .header ul li {
+            height: inherit;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        .header a {
+            color: #1C69D1;
+            text-decoration: none;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            font-family: 'Source Sans Pro';
+        }
+        
+        .donate{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header button{
+            border: 1px solid red;
+            font-size: 12px;
+            text-transform: uppercase;
+            background-color: #1B6BD1;
+            color: white;
+            padding: 10px 25px;
+            
+        }
+        .flexbox{
+                /*border: 1px solid red;*/
+            max-width: 1000px;
+        /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+            flex: 1;
+            margin: 0 auto;
+            display: inherit;
+            justify-content: inherit;
+            align-items: inherit;
+            height: inherit;
+            flex-wrap: inherit;
+            }
+        .box{
+            margin: 0 auto;
+            flex-shrink: 0;
+            font-size: 18px;
+            color: #532C0F;
+            font-weight: 600;
+        }
+        
+        .icon-principal{
+                padding: 0 40px;
+        }
+        .text-bullet{
+                padding: 0 40px;
+            font-size: 18px;
+            color: #532C0F;
+            font-weight: 600;
+            font-family: 'Source Sans Pro';
+        }
+        .about {
+            background-color: #20AE3E;
+            margin: 20px 0 0 0;
+        }
+        .quienessomos-box {
+            background-color: #20AE3E;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .quienessomos-details {
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        .quienessomos-title{
+            text-align: center;
+            color: white;
+            text-transform: none;
+            font-size: 26px;
+        }
+        .quienessomos-text{
+            text-align: center;
+            color: white;
+            padding: 0 10%;
+            line-height: 175%;
+        }
+        .valores{
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Source Sans Pro';
+            font-size: 16px;
+            font-weight: bold;
+            padding: 40px 0 0;
+        }
+        .flexbox2{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 0 6% 40px;
+            
+        }
+        .box2{
+            flex-shrink: 0;
+            margin: 0 auto;
+            padding: 25px;
+            text-align: center;
+            color: white;
+        }
+        .equipo-title{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            color: #20AE3E;
+            
+        }
+        .flexbox4{
+                /*border: 1px solid red;*/
+            max-width: 1000px;
+        /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+            flex: 1;
+            margin: 0 auto;
+            display: inherit;
+            justify-content: inherit;
+            align-items: inherit;
+            height: inherit;
+            flex-wrap: inherit;
+            }
+        .box4{
+            width: 25%;
+            text-align: center;
+            flex-shrink: 0;
+            color: #0D1806;
+            padding: 20px 15px;
+        
+        }
+        
+        .name {
+            font-size: 18px;
+            margin: 0;
+            margin-top: 20px;
+        }
+        .post-1 {
+            font-size: 14px;
+            margin: 0;
+            margin-top: 5px;
+            color: #532C0F;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .post-2 {
+            font-size: 14px;
+            margin: 0;
+            margin-top: 5px;
+        }
+        
+            
+            
+        
+        .mision {
+            background-image: url('../images/back.jpg');
+            background-color: #cccccc;
+            width: 100%;
+            height: 300px;
+            margin:50px 0 00;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .mision-box {
+        }
+        
+        .mision-details {
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        .mision-title{
+            text-align: center;
+            color: #fff;
+            text-transform: none;
+            font-size: 26px;
+        }
+        .mision-text{
+            text-align: center;
+            color: #fff;
+            padding: 0 10%;
+            line-height: 175%;
+        }
+        .vision {
+            background-color: #F5F5F5;
+            margin:0 0 30px 0;
+        }
+        .vision-box {
+            background-color: #F5F5F5;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .vision-details {
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        .vision-title{
+            text-align: center;
+            color: #20AE3E;
+            text-transform: none;
+            font-size: 26px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .vision-text{
+            text-align: center;
+            color: #0D1806;
+            padding: 0 10%;
+            line-height: 175%;
+            margin: 0 0 60px 0;
+        }
+        .contact {
+            background-color: #0D1806;
+            padding:30px 0;
+        }
+        .contact-box {
+            background-color: #0D1806;
+        }
+        
+        .contact-details {
+            width: 100%;
+        }
+        
+        .contact-title{
+            text-align: center;
+            color: #fff;
+            text-transform: none;
+            font-size: 26px;
+            flex: 1 100%;
+            
+        }
+        .contact-text{
+            text-align: center;
+            color: #0D1806;
+            padding: 0 10%;
+            line-height: 175%;
+            margin: 0 0 60px 0;
+        }
+        .container-form{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .form-input{
+            display: block;
+            margin-top: 5px;
+            background: transparent;
+            padding: 10px 0;
+            border: solid #4D5D3C 2px;    
+            color: white;
+            width: 47%;
+            margin-top: 20px;
+            margin: 10px;
+        }
+        .container-button{
+            flex: 1 100%;
+            text-align: center;
+        }
+        .contact--button{
+            border: 0;
+            margin: 40px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #2C663C;
+            padding: 10px 30px;   
+        }
+        .ejes {
+            background-color: #ffffff;
+            margin:40px 0 40px;
+        }
+        .ejes-box {
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .ejes-details {
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        .ejes-title{
+            text-align: center;
+            color: #20AE3E;
+            text-transform: none;
+            font-size: 26px;
+            margin: 0;
+        }
+        .ejes-text{
+            text-align: center;
+            color: #0D1806;
+            padding: 0 10%;
+            line-height: 175%;
+        }
+        
+        .ejesIcon-Container{
+            display: flex;
+            justify-content: center
+        }
+        .ejesIcon-flexbox{
+            display: flex;
+            flex-flow: wrap;
+            width: 70%;
+        
+        }
+        .ejesIcon-box{
+        
+        }
+        .ejesIcon-flexbox .ejesIcon-box{
+            padding: 25px 0;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #532C0F;
+            font-weight: 600;
+            width: 33%;
+            display: flex;
+        }
+        .ejesIcon-image{
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 40px;
+        }
+        .ejesIcon-concept{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 14px;
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+        .project-imageContainer {
+            width: 50%;
+        }
+        .project-imageContainer img {
+            max-width: 100%;
+            width: 100%;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 0 25px;
+            flex-wrap: wrap;
+        }
+        .footer img{
+            vertical-align: middle;
+        }
+        
+        .footer a{
+            color: white;
+        }
+        .footer h4{
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Source Sans Pro'; 
+        }
+        .footer-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /*  justify-content: space-around;
+            justify-content: space-between;*/
+        }
+        .box--footer-container{
+            width: 28%;
+            border: 1px solid red;
+            flex-shrink: 0;
+            padding: 40px 20px;
+            font-size: 14px;
+        }
+        .box--footer-colab{
+            margin: 10px
+        }
+        .box--footer-container h5{
+            font-size: 15px;
+            font-family: 'Source Sans Pro';
+            color: #20AE3E;
+        }
+        .box--footer-container p{
+            font-size: 14px;
+            font-family: 'Source Sans Pro';
+        }
+        .columns{
+            display: flex;
+        }
+        .event-Container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .social{
+            border: 1px solid red;
+        }
+        .social-link {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            display: inline-block;
+            border: 1px solid white;
+            background-size: 50px 50px;
+        }
+        .social-link.1{
+            background-image: url('../images/1.svg');
+        }
+        .social-link.2{
+            background-image: url('../images/1.svg');   
+        }
+        .social-link.3{
+            background-image: url('../images/1.svg');    
+        }
+        .social-link.4{
+            background-image: url('../images/1.svg');
+        }
+        .wrapper-container {
+            /*border: 1px solid red;*/
+            max-width: 1000px;
+        /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+            flex: 1;
+            margin: 0 auto;
+            display: inherit;
+            justify-content: inherit;
+            align-items: inherit;
+            height: inherit;
+            flex-wrap: inherit;
+            }
+        .burger-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(23,334,45,.5);
+            display: none;
+            line-height: 40px;
+            text-align: center;
+            position: fixed;
+            z-index: 4;
+            left: 5px;
+            top: 5px;
+            color: white;
+            
+        }
+        .footer-images{
+            display: block;
+            width: 72%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+  
 
 }
 
-@media screen and (max-width: 320px){
- h1{
-        font-size: 1.2em;
-     background: rgba(0,0,0,.5)
-    }
-    
-    .hero{
-        padding: 2em 1em;
-    }
-    
+
+
+
+.thanks{
+    display: none;
 }
