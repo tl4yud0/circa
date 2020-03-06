@@ -55,15 +55,15 @@
     <section class="event-Container">
        <div class="flexbox">
            <div class="box">
-               <figure class="icon-principal"><img src="images/acciones.jpg" width="60" alt=""></figure>
+               <figure class="icon-principal"><img src="images/acciones.jpg" width="70" alt=""></figure>
                <p class="text-bullet">Acciones integrales</p>
            </div>
            <div class="box">
-               <figure class="icon-principal"><img src="images/crecimiento.jpg" width="60" alt=""></figure>
+               <figure class="icon-principal"><img src="images/crecimiento.jpg" width="70" alt=""></figure>
                <p class="text-bullet" >Acciones integrales</p>
            </div>
            <div class="box">
-               <figure class="icon-principal"><img src="images/trabajo.jpg" width="60" alt=""></figure>
+               <figure class="icon-principal"><img src="images/trabajo.jpg" width="70" alt=""></figure>
                <p class="text-bullet" >Acciones integrales</p>
            </div>
         </div>
