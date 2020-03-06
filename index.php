@@ -49,7 +49,9 @@
                   <a href="" class="btn hechos"> ¿Qué hemos hecho?</a>
                 </div>
             </div>
-            <img class="hero-image" src="./images/circa-header.png" alt="image" width="500" height="350">
+            <div class="cont-img">
+               <img class="hero-image" src="./images/circa-header.png" alt="image" width="500" height="350">
+            </div>
         </div>
     </section>
     <section class="event-Container">
