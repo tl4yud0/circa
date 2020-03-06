@@ -6,9 +6,9 @@
     <title>Circa - concientización ambiental</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Turret+Road:800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/popup.css" />
+    <link rel="stylesheet" href="css/styles.css">
     
 </head>
 <body>
@@ -42,7 +42,13 @@
     </header>
     <section class="hero">
        <div class="wrapper-container">
-            <h1>Propagamos la concientización <br>ambiental para generar una<br> perspectiva colectiva</h1>
+            <div class="contenedor">
+                <h1>Propagamos la concientización ambiental para generar una perspectiva colectiva</h1>
+                <div class="botones">
+                  <a href="" class="btn cambiar-mundo"> Comienza a cambiar el mundo</a>
+                  <a href="" class="btn hechos"> ¿Qué hemos hecho?</a>
+                </div>
+            </div>
             <img class="hero-image" src="./images/circa-header.png" alt="image" width="500" height="350">
         </div>
     </section>

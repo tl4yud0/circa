@@ -15,6 +15,37 @@
 
     
 @media screen and (max-width: 767px){
+   
+    .hero .wrapper-container .contenedor h1{
+        color:white;
+        background: transparent;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 2em;
+        font-weight: 200;
+    }
+    .hero .wrapper-container .contenedor .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .hero .wrapper-container .contenedor .botones .cambiar-mundo{
+        background: gray;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones a.cambiar-mundo {
+        text-decoration: none;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones a.hechos {
+        margin-bottom: 20px;
+        color: white;
+        text-decoration: underline;
+    }
     [class^="icon-"], [class*=" icon-"] {
         /* use !important to prevent issues with browser extensions that change fonts */
         font-family: 'icomoon' !important;
@@ -80,6 +111,9 @@
     }
     .hero-image{
         object-fit: cover;
+        height: auto;
+        object-fit: cover;
+        width: 100%;
     }
     
     .header {
@@ -161,7 +195,9 @@
     }
     
     .icon-principal{
-            padding: 0 40px;
+        padding: 0 40px;
+        display: flex;
+        justify-content: center;
     }
     .text-bullet{
             padding: 0 40px;
@@ -548,6 +584,8 @@
         align-items: inherit;
         height: inherit;
         flex-wrap: inherit;
+        display: flex;
+    flex-direction: column-reverse;
         }
     .burger-button {
         width: 40px;
@@ -752,6 +790,8 @@
         position: relative;
         overflow: hidden;
         padding: 2em;
+        padding-left: 0;
+        padding-right: 0;
     }
     .columns{
         display: flex;
@@ -763,6 +803,45 @@
 
 
 @media screen and (min-width: 768px){
+    .hero .wrapper-container .contenedor{
+        z-index: 2;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .hero .wrapper-container .contenedor h1{
+        color:white;
+    }
+
+    .hero .wrapper-container .contenedor .botones{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero .wrapper-container .contenedor .botones .cambiar-mundo{
+        background: gray;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones .cambiar-mundo a{
+        text-decoration: none;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones .cambiar-mundo{
+        background: gray;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones a.cambiar-mundo {
+        text-decoration: none;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones a.hechos {
+        color: white;
+        text-decoration: underline;
+    }
+
+
     [class^="icon-"], [class*=" icon-"] {
         /* use !important to prevent issues with browser extensions that change fonts */
         font-family: 'icomoon' !important;
@@ -778,6 +857,15 @@
         -moz-osx-font-smoothing: grayscale;
     }
     
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
     .icon-menu:before {
         content: "\e9bd";
     }
@@ -825,6 +913,8 @@
         align-items: center;
         justify-content: space-between;
         margin: 0 0 40px 0;
+        position: relative;
+
     }
     .hero-image{
         object-fit: cover;
@@ -1367,15 +1457,48 @@
 }
 
 @media screen and (min-width: 1024px){
+    .hero .wrapper-container .contenedor{
+        z-index: 2;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .wrapper-container .contenedor h1{
+        color:white;
+    }
+
+    .hero .wrapper-container .contenedor .botones{
+        width: 90%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero .wrapper-container .contenedor .botones .cambiar-mundo{
+        background: gray;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones a.cambiar-mundo {
+        text-decoration: none;
+        color:white;
+    }
+    .hero .wrapper-container .contenedor .botones a.hechos {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .hero .wrapper-container .contenedor h1{
+        color:white;
+    }
     .container{
         padding: 0 1em;
     }
     
-         .hero{
+    .hero{
         height: auto;
-         position: relative;
-             overflow: hidden;
-             padding: 2em;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
 
     }
     .hero-image{
@@ -1386,7 +1509,6 @@
         top: 0;
         bottom: 0;
         width: 100%;
-    
     }
    
      h1{
