@@ -207,7 +207,7 @@
         font-family: 'Source Sans Pro';
     }
     .about {
-        background-color: #20AE3E;
+        background-color: #2C663C;
         margin: 20px 0 0 0;
     }
     .quienessomos-box {
@@ -1680,11 +1680,11 @@
             font-family: 'Source Sans Pro';
         }
         .about {
-            background-color: #20AE3E;
+            background-color: #2C663C;
             margin: 20px 0 0 0;
         }
         .quienessomos-box {
-            background-color: #20AE3E;
+            background-color: #2C663C;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -2050,14 +2050,15 @@
             /*border: 1px solid red;*/
             max-width: 100%;
         /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
-            flex: 1;
             margin: 0 auto;
-            display: inherit;
-            justify-content: inherit;
-            align-items: inherit;
-            height: inherit;
-            flex-wrap: inherit;
+            display: flex;
+            justify-content: center;
             }
+
+        #Contacto .wrapper-container .contact-box{
+            width: 70%;
+        }
+    
         .burger-button {
             width: 40px;
             height: 40px;

@@ -6,3 +6,5 @@
 *Name: Herminio *Email: nbacarlosalberto@gmail.com *Option: option1 *Phone: 5512341234
 *Name: Herminio *Email: hverab@ultrasist.com.mx *Option: option1 *Phone: 5512342134
 *Name: Herminio *Email: nbacarlosalberto@gmail.com *Option: option1 *Phone: 5145123412
+*Name: hermminio *Email: sparck_me@hotmail.com *Option: option2 *Phone: 4388818126
+*Name: hermenegukdo *Email: nbacarlosalberto@gmail.com *Option: option3 *Phone: 9876543234
