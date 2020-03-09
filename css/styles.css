@@ -1942,20 +1942,13 @@
             padding-top: 10px;
         }
         .about {
-<<<<<<< HEAD
             background-color: #2c663c;
-=======
-            background-color: #2C663C;
->>>>>>> c774386c782d9bf7648f7e84de1f0578157ee6b6
             margin: 20px 0 0 0;
             margin-top: 0px;
         }
         .quienessomos-box {
-<<<<<<< HEAD
-            background-color: #2c663c;
-=======
+
             background-color: #2C663C;
->>>>>>> c774386c782d9bf7648f7e84de1f0578157ee6b6
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -2380,20 +2373,13 @@
             max-width: 100%;
         /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
             margin: 0 auto;
-<<<<<<< HEAD
-            display: inherit;
-            justify-content: inherit;
-            align-items: inherit;
-            height: 100%;
-            flex-wrap: inherit;
-=======
+            
             display: flex;
             justify-content: center;
->>>>>>> c774386c782d9bf7648f7e84de1f0578157ee6b6
             }
 
         #Contacto .wrapper-container .contact-box{
-            width: 70%;
+            width: 100%;
         }
     
         .burger-button {
