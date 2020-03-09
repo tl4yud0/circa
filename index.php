@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/popup.css" />
     <link rel="stylesheet" href="css/styles.css">
-    
 </head>
 <body>
     <header class="header">
