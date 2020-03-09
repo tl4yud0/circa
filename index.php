@@ -12,12 +12,34 @@
     
 </head>
 <body>
-   <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
-       <div class="wrapper-container">
-            <figure class="logo">
-                <img src="images/logo-circa.jpg" alt="Ricardo" width="110">
-            </figure>
+       <div class="header-logo-mobile">
+         <div class="header-logo-mobile-svg">
+               <svg xmlns="http://www.w3.org/2000/svg" id="prefix___001-leafs" width="30.12" height="37.926" data-name="001-leafs" viewBox="0 0 30.12 37.926">
+                  <path id="prefix__Tracé_148" d="M183.076.409a1.186 1.186 0 0 0-1.136-.385 19.768 19.768 0 0 0-15.632 17.885c-.838 10.6 12.99 15.219 18.582 6.324A20.1 20.1 0 0 0 183.076.409z" data-name="Tracé 148" transform="translate(-157.845)" style="fill:#9bd75e"/>
+                  <path id="prefix__Tracé_149" d="M74.309 17.91A19.767 19.767 0 0 0 58.677.025a1.187 1.187 0 0 0-1.136.385 20.1 20.1 0 0 0-1.814 23.824c5.599 8.906 19.418 4.245 18.582-6.324z" data-name="Tracé 149" transform="translate(-52.65)" style="fill:#c8f39c"/>
+                  <path id="prefix__Tracé_151" d="M69.092 5.934A19.577 19.577 0 0 0 58.667.025 1.187 1.187 0 0 0 57.53.41a20.078 20.078 0 0 0-4.89 13.306 10.921 10.921 0 0 0 6.109-3.231 18.253 18.253 0 0 1 10.343-4.551z" data-name="Tracé 151" transform="translate(-52.64)" style="fill:#c8f29c"/>
+                  <path id="prefix__Tracé_152" d="M338.472 23.948a20.1 20.1 0 0 0-1.99-23.539 1.186 1.186 0 0 0-1.136-.385 19.418 19.418 0 0 0-3.383 1.028c1.783 1.6 4.522 5.086 3.944 11.118a18.953 18.953 0 0 0 2.565 11.778z" data-name="Tracé 152" transform="translate(-311.252)" style="fill:#9bd65e"/>
+                  <path id="prefix__Tracé_153" d="M148.566 109.487l1.352-3.825a1.186 1.186 0 0 0-2.237-.79l-.468 1.325q-1.025-2.3-2.269-4.614a1.186 1.186 0 0 0-2.089 1.125 60.4 60.4 0 0 1 4.6 10.85l-2.494-.861a1.186 1.186 0 0 0-.775 2.243l4.035 1.394a43.343 43.343 0 0 1 1.169 13.784 1.186 1.186 0 0 0 2.365.19 47.724 47.724 0 0 0-3.189-20.821z" data-name="Tracé 153" transform="translate(-136.033 -93.473)" style="fill:#77a042"/>
+               </svg>
+         </div>
+
+         <div class="header-logo-mobile-text">
+               <p>Donación</p>
+         </div>
+
+      </div>  
+      <div class="wrapper-container-menu">
+            <div class="menu-mobile">
+               <div class="menu-mobile-logo">
+                  <figure class="logo">
+                      <img src="images/logo-circa.jpg" alt="Ricardo" width="110">
+                  </figure>
+               </div>
+               <div class="menu-mobile-icon">
+                  <i class="icon-menu burger-button" id="burger-menu"></i>
+               </div>
+            </div>
             <nav class="menu">
                 <ul>
                     <li><a class="link" href="#QuienesSomos">Quienes Somos</a>
@@ -32,16 +54,25 @@
                     </li>
                     <div class="donate">
                    
-                    <button>  
-                    <img src="images/"  width="40">
-                    Donación</button>
+                     <button>  
+                     <svg xmlns="http://www.w3.org/2000/svg" id="prefix___001-leafs" width="15" height="37.926" data-name="001-leafs" viewBox="0 0 30.12 37.926">
+                        <path id="prefix__Tracé_148" d="M183.076.409a1.186 1.186 0 0 0-1.136-.385 19.768 19.768 0 0 0-15.632 17.885c-.838 10.6 12.99 15.219 18.582 6.324A20.1 20.1 0 0 0 183.076.409z" data-name="Tracé 148" transform="translate(-157.845)" style="fill:#9bd75e"/>
+                        <path id="prefix__Tracé_149" d="M74.309 17.91A19.767 19.767 0 0 0 58.677.025a1.187 1.187 0 0 0-1.136.385 20.1 20.1 0 0 0-1.814 23.824c5.599 8.906 19.418 4.245 18.582-6.324z" data-name="Tracé 149" transform="translate(-52.65)" style="fill:#c8f39c"/>
+                        <path id="prefix__Tracé_151" d="M69.092 5.934A19.577 19.577 0 0 0 58.667.025 1.187 1.187 0 0 0 57.53.41a20.078 20.078 0 0 0-4.89 13.306 10.921 10.921 0 0 0 6.109-3.231 18.253 18.253 0 0 1 10.343-4.551z" data-name="Tracé 151" transform="translate(-52.64)" style="fill:#c8f29c"/>
+                        <path id="prefix__Tracé_152" d="M338.472 23.948a20.1 20.1 0 0 0-1.99-23.539 1.186 1.186 0 0 0-1.136-.385 19.418 19.418 0 0 0-3.383 1.028c1.783 1.6 4.522 5.086 3.944 11.118a18.953 18.953 0 0 0 2.565 11.778z" data-name="Tracé 152" transform="translate(-311.252)" style="fill:#9bd65e"/>
+                        <path id="prefix__Tracé_153" d="M148.566 109.487l1.352-3.825a1.186 1.186 0 0 0-2.237-.79l-.468 1.325q-1.025-2.3-2.269-4.614a1.186 1.186 0 0 0-2.089 1.125 60.4 60.4 0 0 1 4.6 10.85l-2.494-.861a1.186 1.186 0 0 0-.775 2.243l4.035 1.394a43.343 43.343 0 0 1 1.169 13.784 1.186 1.186 0 0 0 2.365.19 47.724 47.724 0 0 0-3.189-20.821z" data-name="Tracé 153" transform="translate(-136.033 -93.473)" style="fill:#77a042"/>
+                     </svg>
+                        <span>
+                           Donación
+                        </span>
+                     </button>
                     </div>
                 </ul>
             </nav>
         </div>
     </header>
     <section class="hero">
-       <div class="wrapper-container">
+       <div class="wrapper-container-img" >
             <div class="contenedor">
                 <h1>Propagamos la concientización ambiental para generar una perspectiva colectiva</h1>
                 <div class="botones">
@@ -62,11 +93,11 @@
            </div>
            <div class="box">
                <figure class="icon-principal"><img src="images/crecimiento.jpg" width="70" alt=""></figure>
-               <p class="text-bullet" >Acciones integrales</p>
+               <p class="text-bullet" >Creación de conocimiento</p>
            </div>
            <div class="box">
                <figure class="icon-principal"><img src="images/trabajo.jpg" width="70" alt=""></figure>
-               <p class="text-bullet" >Acciones integrales</p>
+               <p class="text-bullet" >Trabajo en comunidad</p>
            </div>
         </div>
     </section>
@@ -126,17 +157,17 @@
                </div>
             </div>
     </section>
-       <section id="MisionVision" class="mision">
-           <div class="wrapper-container">
-               <article class="mision-box">
-                   <div class="mision-details">
-                        <h2 class="mision-title" >Misión</h2>
-                        <p class="mision-text">“Por medio de diversos programas innovadores llevar a cabo una concientización íntegral de la conservación del medio ambiente dentro de la sociedad, atendiendo la problemática ambiental actual”.
-                        </p>
-                    </div> 
-                </article>
-            </div>
-        </section>
+   <section id="MisionVision" class="mision">
+      <div class="wrapper-container">
+         <article class="mision-box">
+               <div class="mision-details">
+                  <h2 class="mision-title" >Misión</h2>
+                  <p class="mision-text">“Por medio de diversos programas innovadores llevar a cabo una concientización íntegral de la conservación del medio ambiente dentro de la sociedad, atendiendo la problemática ambiental actual”.
+                  </p>
+               </div> 
+            </article>
+      </div>
+   </section>
     <section class="vision">
        <div class="wrapper-container">
            <article class="vision-box">
@@ -191,204 +222,206 @@
     <div class="container">
         <div class="row">
            <div class="col-lg-12 text-center my-2">
-              <h4 class="border-bottom border-dark p-2">Galería</h4>
+              <h4 class=" border-dark p-2">Galería</h4>
            </div>
         </div>
         <div class="portfolio-menu mt-2 mb-4">
            <ul>
-              <li class="btn btn-outline-dark active" data-filter="*">Todos los años</li>
-              <li class="btn btn-outline-dark" data-filter=".gts">2019</li>
+              <!-- <li class="btn btn-outline-dark active" data-filter="*">Todos los años</li> -->
+              <li class="btn btn-outline-dark active" data-filter=".gts">2019</li>
               <li class="btn btn-outline-dark" data-filter=".lap">2018</li>
               <li class="btn btn-outline-dark text" data-filter=".selfie">2017</li>
+              <li class="btn btn-outline-dark text" data-filter=".selfie">2016</li>
+              <li class="btn btn-outline-dark text" data-filter=".selfie">2013</li>
            </ul>
         </div>
         <div class="portfolio-item row">
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
               <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/pretty-girl-near-car_1157-16962.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
               <img class="img-fluid" src="https://image.freepik.com/free-photo/pretty-girl-near-car_1157-16962.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/blonde-tourist-taking-selfie_23-2147978899.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/blonde-tourist-taking-selfie_23-2147978899.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/cute-girls-oin-studio_1157-18211.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/cute-girls-oin-studio_1157-18211.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/stylish-pin-up-girls_1157-18451.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-pin-up-girls_1157-18451.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/stylish-pin-up-girl_1157-18940.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-pin-up-girl_1157-18940.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/digital-laptop-working-global-business-concept_53876-23438.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/digital-laptop-working-global-business-concept_53876-23438.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/set-digital-devices-screen-mockup_53876-76507.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/set-digital-devices-screen-mockup_53876-76507.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/young-brunette-woman-with-sunglasses-urban-background_1139-893.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/young-brunette-woman-with-sunglasses-urban-background_1139-893.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/laptop-digital-device-screen-mockup_53876-76509.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/laptop-digital-device-screen-mockup_53876-76509.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/young-woman-holding-pen-hand-thinking-while-writing-notebook_23-2148029424.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/young-woman-holding-pen-hand-thinking-while-writing-notebook_23-2148029424.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/female-fashion-concept_23-2147643598.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/female-fashion-concept_23-2147643598.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/girl-city_1157-16454.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/girl-city_1157-16454.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/elegant-lady-with-laptop_1157-16643.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/elegant-lady-with-laptop_1157-16643.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/laptop-mock-up-lateral-view_1310-199.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/laptop-mock-up-lateral-view_1310-199.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/portrait-young-woman_1303-10071.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/portrait-young-woman_1303-10071.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/beautiful-girl-near-wall_1157-16401.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/beautiful-girl-near-wall_1157-16401.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/woman-taking-photograph-her-boyfriend-enjoying-piggyback-ride-his-back_23-2147841613.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/woman-taking-photograph-her-boyfriend-enjoying-piggyback-ride-his-back_23-2147841613.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/girl-smiling-making-auto-photo-with-her-friends-around_1139-593.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/girl-smiling-making-auto-photo-with-her-friends-around_1139-593.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/multiracial-group-young-people-taking-selfie_1139-1032.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/multiracial-group-young-people-taking-selfie_1139-1032.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/laptop-wooden-table_53876-20635.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/laptop-wooden-table_53876-20635.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/business-woman-working-laptop_1388-67.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/business-woman-working-laptop_1388-67.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/group-people-holding-laptop-mockup-charity_23-2148069565.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/group-people-holding-laptop-mockup-charity_23-2148069565.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/portrait-young-cheerful-woman-headphones-sitting-stairs_1262-17488.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/portrait-young-cheerful-woman-headphones-sitting-stairs_1262-17488.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/celebration-concept-close-up-portrait-happy-young-beautiful-african-woman-black-t-shirt-smiling-with-colorful-party-balloon-yellow-pastel-studio-background_1258-934.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/celebration-concept-close-up-portrait-happy-young-beautiful-african-woman-black-t-shirt-smiling-with-colorful-party-balloon-yellow-pastel-studio-background_1258-934.jpg" alt="">
               </a>
            </div>
-           <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item gts col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/pretty-woman-showing-arm-muscles_23-2148056021.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/pretty-woman-showing-arm-muscles_23-2148056021.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/blank-colorful-adhesive-notes-against-wooden-wall-with-office-stationeries-laptop_23-2148052717.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/blank-colorful-adhesive-notes-against-wooden-wall-with-office-stationeries-laptop_23-2148052717.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/happy-woman-having-video-call-using-laptop-office_23-2148056211.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/happy-woman-having-video-call-using-laptop-office_23-2148056211.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/laptop-mockup-table-with-plants_23-2147955548.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/laptop-mockup-table-with-plants_23-2147955548.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/blank-colorful-adhesive-notes-against-wooden-wall-with-office-stationeries-laptop_23-2148052717.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/blank-colorful-adhesive-notes-against-wooden-wall-with-office-stationeries-laptop_23-2148052717.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-psd/woman-using-laptop-smartphone_53876-76350.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-psd/woman-using-laptop-smartphone_53876-76350.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/attractive-young-woman-with-curly-hair-takes-selfie-posing-looking-camera_8353-6636.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/attractive-young-woman-with-curly-hair-takes-selfie-posing-looking-camera_8353-6636.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/young-couple-taking-selfie-mobile-phone-against-blue-background_23-2148056292.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/young-couple-taking-selfie-mobile-phone-against-blue-background_23-2148056292.jpg" alt="">
               </a>
            </div>
-           <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item lap col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/close-up-blonde-woman-sitting-sofa-using-laptop-with-blank-white-screen_23-2148028738.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/close-up-blonde-woman-sitting-sofa-using-laptop-with-blank-white-screen_23-2148028738.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/group-happy-friends-taking-selfie-cellphone_23-2147859575.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/group-happy-friends-taking-selfie-cellphone_23-2147859575.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/joyful-pretty-girl-with-curly-hair-takes-selfie-mobile-phone_8353-6635.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/joyful-pretty-girl-with-curly-hair-takes-selfie-mobile-phone_8353-6635.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/attractive-young-woman-with-curly-hair-takes-selfie-posing-looking-camera_8353-6636.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/attractive-young-woman-with-curly-hair-takes-selfie-posing-looking-camera_8353-6636.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/multiracial-group-young-people-taking-selfie_1139-1032.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/multiracial-group-young-people-taking-selfie_1139-1032.jpg" alt="">
               </a>
@@ -398,12 +431,12 @@
               <img class="img-fluid" src="https://image.freepik.com/free-photo/two-smiling-girls-take-selfie-their-phones-posing-with-lollipops_8353-5600.jpg" alt="">
               </a>
            </div> -->
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/female-friends-sitting-car-hood-taking-self-portrait_23-2147855623.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/female-friends-sitting-car-hood-taking-self-portrait_23-2147855623.jpg" alt="">
               </a>
            </div>
-           <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+           <div class="item selfie col-lg-3 col-md-4 col-12 col-sm">
               <a href="https://image.freepik.com/free-photo/two-smiling-girls-take-selfie-their-phones-posing-with-lollipops_8353-5600.jpg" class="fancylight popup-btn" data-fancybox-group="light">
               <img class="img-fluid" src="https://image.freepik.com/free-photo/two-smiling-girls-take-selfie-their-phones-posing-with-lollipops_8353-5600.jpg" alt="">
               </a>
@@ -466,8 +499,7 @@
            </div>
            <div>
                <h5>Dirección </h5>
-               <p>Calle Laureles Nº 120
-Fraccionamiento Trinidad de las Huertas, Oaxaca de Juárez, Oax</p>
+               <p>Calle Laureles Nº 120 Fraccionamiento Trinidad de las Huertas, Oaxaca de Juárez, Oax</p>
                <div>
                    <img src="images/logo-circa.jpg" alt="">
                    <img src="" alt="">
