@@ -456,8 +456,10 @@
         function validation (event) {
             if (event.matches) {
                 burgerButton.addEventListener('click', hideShow)
+               //  $('body').css({"height": "100vh", "overflow": "hidden"});
             } else {
                 burgerButton.removeEventListener('click', hideShow)
+               //  $('body').css({"height": "100vh", "overflow": "none"});
             }
         }
         validation(ipad);
@@ -465,8 +467,13 @@
         function hideShow() {
             if (menu.classList.contains('is-active')){
                 menu.classList.remove('is-active');
+                  $('body').css({"height": "100vh", "overflow": "scroll"});
+
             } else{
             menu.classList.add('is-active');
+                $('body').css({"height": "100vh", "overflow": "hidden"});
+            
+            
               }
         }
     </script>
