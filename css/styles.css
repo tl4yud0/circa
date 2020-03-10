@@ -1002,7 +1002,7 @@
     .redes-sociales  a.facebook {
         width: 10px;
         height: 20px;
-        background: url(/images/element-facebook.png);
+        background: url(../images/element-facebook.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1010,7 +1010,7 @@
     .redes-sociales  a.facebook:hover {
         width: 10px;
         height: 20px;
-        background: url(/images/element-facebook-hover.png);
+        background: url(../images/element-facebook-hover.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1018,7 +1018,7 @@
     .redes-sociales  a.twitter {
         width: 22px;
         height: 18px;
-        background: url(/images/element-twitter.png);
+        background: url(../images/element-twitter.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1026,7 +1026,7 @@
     .redes-sociales  a.twitter:hover {
         width: 22px;
         height: 18px;
-        background: url(/images/element-twitter-hover.png);
+        background: url(../images/element-twitter-hover.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1034,7 +1034,7 @@
     .redes-sociales  a.instagram {
         width: 20px;
         height: 20px;
-        background: url(/images/element-instagram.png);
+        background: url(../images/element-instagram.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1042,7 +1042,7 @@
     .redes-sociales  a.instagram:hover {
         width: 20px;
         height: 20px;
-        background: url(/images/element-instagram-hover.png);
+        background: url(../images/element-instagram-hover.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1722,7 +1722,7 @@
     .redes-sociales  a.facebook {
         width: 10px;
         height: 20px;
-        background: url(/images/element-facebook.png);
+        background: url(../images/element-facebook.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1732,7 +1732,7 @@
     .redes-sociales  a.facebook:hover {
         width: 10px;
         height: 20px;
-        background: url(/images/element-facebook-hover.png);
+        background: url(../images/element-facebook-hover.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1740,7 +1740,7 @@
     .redes-sociales  a.twitter {
         width: 22px;
         height: 18px;
-        background: url(/images/element-twitter.png);
+        background: url(../images/element-twitter.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1750,7 +1750,7 @@
     .redes-sociales  a.twitter:hover {
         width: 22px;
         height: 18px;
-        background: url(/images/element-twitter-hover.png);
+        background: url(../images/element-twitter-hover.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1758,7 +1758,7 @@
     .redes-sociales  a.instagram {
         width: 20px;
         height: 20px;
-        background: url(/images/element-instagram.png);
+        background: url(../images/element-instagram.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -1768,7 +1768,7 @@
     .redes-sociales  a.instagram:hover {
         width: 20px;
         height: 20px;
-        background: url(/images/element-instagram-hover.png);
+        background: url(../images/element-instagram-hover.png);
         background-position:center center; 
         background-repeat: no-repeat;
         background-size: contain;
@@ -3336,7 +3336,7 @@
         .redes-sociales  a.facebook {
             width: 10px;
             height: 20px;
-            background: url(/images/element-facebook.png);
+            background: url(../images/element-facebook.png);
             background-position:center center; 
             background-repeat: no-repeat;
             background-size: contain;
@@ -3346,7 +3346,7 @@
         .redes-sociales  a.facebook:hover {
             width: 10px;
             height: 20px;
-            background: url(/images/element-facebook-hover.png);
+            background: url(../images/element-facebook-hover.png);
             background-position:center center; 
             background-repeat: no-repeat;
             background-size: contain;
@@ -3354,7 +3354,7 @@
         .redes-sociales  a.twitter {
             width: 22px;
             height: 18px;
-            background: url(/images/element-twitter.png);
+            background: url(../images/element-twitter.png);
             background-position:center center; 
             background-repeat: no-repeat;
             background-size: contain;
@@ -3364,7 +3364,7 @@
         .redes-sociales  a.twitter:hover {
             width: 22px;
             height: 18px;
-            background: url(/images/element-twitter-hover.png);
+            background: url(../images/element-twitter-hover.png);
             background-position:center center; 
             background-repeat: no-repeat;
             background-size: contain;
@@ -3372,7 +3372,7 @@
         .redes-sociales  a.instagram {
             width: 20px;
             height: 20px;
-            background: url(/images/element-instagram.png);
+            background: url(../images/element-instagram.png);
             background-position:center center; 
             background-repeat: no-repeat;
             background-size: contain;
@@ -3382,7 +3382,7 @@
         .redes-sociales  a.instagram:hover {
             width: 20px;
             height: 20px;
-            background: url(/images/element-instagram-hover.png);
+            background: url(../images/element-instagram-hover.png);
             background-position:center center; 
             background-repeat: no-repeat;
             background-size: contain;
