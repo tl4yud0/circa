@@ -235,27 +235,27 @@
            </ul>
         </div>
         <div class="portfolio-item row">
-            <div class="item 2019 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2019 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2019-72/2019-01.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2019-72/2019-01.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2019 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2019 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2019-72/2019-02.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2019-72/2019-02.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2019 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2019 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2019-72/2019-03.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2019-72/2019-03.jpg" alt="">
               </a>
             </div>
-            <div class="item 2019 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2019 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2019-72/2019-04.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2019-72/2019-04.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2019 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2019 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2019-72/2019-05.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2019-72/2019-05.jpeg" alt="">
               </a>
@@ -263,22 +263,22 @@
 
 
 
-            <div class="item 2018 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2018 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2018-72/2018-01.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2018-72/2018-01.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2018 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2018 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2018-72/2018-02.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2018-72/2018-02.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2018 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2018 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2018-72/2018-03.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2018-72/2018-03.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2018 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2018 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2018-72/2018-04.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2018-72/2018-04.jpeg" alt="">
               </a>
@@ -286,22 +286,22 @@
 
 
 
-            <div class="item 2017 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2017 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2017-72/2017-01.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2017-72/2017-01.jpg" alt="">
               </a>
             </div>
-            <div class="item 2017 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2017 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2017-72/2017-02.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2017-72/2017-02.jpeg" alt="">
               </a>
             </div>
-            <div class="item 2017 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2017 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2017-72/2017-03.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2017-72/2017-03.jpg" alt="">
               </a>
             </div>
-            <div class="item 2017 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2017 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2017-72/2017-04.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2017-72/2017-04.jpg" alt="">
               </a>
@@ -310,44 +310,44 @@
 
 
 
-            <div class="item 2016 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2016 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2016-72/2016-01.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2016-72/2016-01.jpg" alt="">
               </a>
             </div>
-            <div class="item 2016 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2016 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2016-72/2016-02.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2016-72/2016-02.jpg" alt="">
               </a>
             </div>
-            <div class="item 2016 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2016 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2016-72/2016-03.JPG" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2016-72/2016-03.JPG" alt="">
               </a>
             </div>
-            <div class="item 2016 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2016 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2016-72/2016-04.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2016-72/2016-04.jpg" alt="">
               </a>
             </div>
 
 
-            <div class="item 2013 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2013 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2013-72/2013-01.JPG" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2013-72/2013-01.JPG" alt="">
               </a>
             </div>
-            <div class="item 2013 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2013 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2013-72/2013-02.JPG" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2013-72/2013-02.JPG" alt="">
               </a>
             </div>
-            <div class="item 2013 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2013 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2013-72/2013-03.JPG" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2013-72/2013-03.JPG" alt="">
               </a>
             </div>
-            <div class="item 2013 col-lg-3 col-md-4 col-12 col-sm">
+            <div class="item 2013 col-lg-3 col-md-4 col-6 col-sm">
                <a href="./images/2013-72/2013-04.JPG" class="fancylight popup-btn" data-fancybox-group="light"> 
                   <img class="img-fluid" src="./images/2013-72/2013-04.JPG" alt="">
               </a>
@@ -446,20 +446,15 @@
     <script>
         const ipad = window.matchMedia('screen and (max-width: 767px)')
         const menu = document.querySelector('.menu');
-//        console.log(menu);
         const burgerButton = document.querySelector('#burger-menu');
-//        console.log(burgerButton);
-        
         
         ipad.addListener(validation)
         
         function validation (event) {
             if (event.matches) {
                 burgerButton.addEventListener('click', hideShow)
-               //  $('body').css({"height": "100vh", "overflow": "hidden"});
             } else {
                 burgerButton.removeEventListener('click', hideShow)
-               //  $('body').css({"height": "100vh", "overflow": "none"});
             }
         }
         validation(ipad);
@@ -482,6 +477,7 @@
             $('.portfolio-item').isotope({
                  itemSelector: '.item',
                  layoutMode: 'fitRows',
+                 filter: '.2019',
                  masonry: {
                     columnWidth: 110
                 }
