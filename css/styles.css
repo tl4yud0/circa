@@ -323,7 +323,8 @@
         
     
     .mision {
-        background-image: url('../images/back.jpg');
+        background-image: url(../images/Groupe-79.png);
+        background-position: center center;
         background-color: #cccccc;
         width: 100%;
         height: auto;
@@ -596,6 +597,9 @@
         flex-wrap: wrap;
     }
     
+    .event-Container .flexbox .box .icon-principal img{
+        height: 100%;
+    }
     .social{
         /* border: 1px solid red; */
     }
@@ -836,6 +840,7 @@
     .footer img{
         vertical-align: middle;
         width: 30%;
+        width: auto;
     }
     .ejesIcon-flexbox{
         width: 95%;
@@ -981,6 +986,68 @@
     #Contacto .wrapper-container{
         margin-bottom: 30px;
     } 
+
+    .redes-sociales{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .redes-sociales a{
+        max-width: 20px;
+    }
+        
+    .redes-sociales  a.facebook {
+        width: 10px;
+        height: 20px;
+        background: url(/images/element-facebook.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.facebook:hover {
+        width: 10px;
+        height: 20px;
+        background: url(/images/element-facebook-hover.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.twitter {
+        width: 22px;
+        height: 18px;
+        background: url(/images/element-twitter.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.twitter:hover {
+        width: 22px;
+        height: 18px;
+        background: url(/images/element-twitter-hover.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.instagram {
+        width: 20px;
+        height: 20px;
+        background: url(/images/element-instagram.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.instagram:hover {
+        width: 20px;
+        height: 20px;
+        background: url(/images/element-instagram-hover.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
 }
 
 
@@ -1639,6 +1706,73 @@
     .header-logo-mobile{
         display: none;
     }
+    .redes-sociales{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .redes-sociales a{
+        max-width: 20px;
+        cursor: pointer;
+    }
+        
+    .redes-sociales  a.facebook {
+        width: 10px;
+        height: 20px;
+        background: url(/images/element-facebook.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        transition: .8s;
+    }
+    .redes-sociales  a.facebook:hover {
+        width: 10px;
+        height: 20px;
+        background: url(/images/element-facebook-hover.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.twitter {
+        width: 22px;
+        height: 18px;
+        background: url(/images/element-twitter.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        transition: .8s;
+    }
+    .redes-sociales  a.twitter:hover {
+        width: 22px;
+        height: 18px;
+        background: url(/images/element-twitter-hover.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .redes-sociales  a.instagram {
+        width: 20px;
+        height: 20px;
+        background: url(/images/element-instagram.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        transition: .8s;
+    }
+    .redes-sociales  a.instagram:hover {
+        width: 20px;
+        height: 20px;
+        background: url(/images/element-instagram-hover.png);
+        background-position:center center; 
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
 
 
@@ -2056,7 +2190,8 @@
             
         
         .mision {
-            background-image: url('../images/back.jpg');
+            background-image: url(../images/Groupe-79.png);
+            background-position: center center;
             background-color: #cccccc;
             width: 100%;
             height: 300px;
@@ -2306,6 +2441,7 @@
         }
         .footer img{
             vertical-align: middle;
+            width: auto;
         }
         
         .footer a{
@@ -2408,6 +2544,9 @@
             align-items: center;
             display: flex;
         }
+
+
+       
 }
 
 @media screen and (min-width: 1024px){
@@ -2825,11 +2964,12 @@
             
         
         .mision {
-            background-image: url('../images/back.jpg');
+            background-image: url(../images/Groupe-79.png);
             background-color: #cccccc;
+            background-position: center;
             width: 100%;
             height: 300px;
-            margin:50px 0 00;
+            margin: 50px 0 00;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -3069,9 +3209,11 @@
             color: white;
             padding: 0 25px;
             flex-wrap: wrap;
+            padding-bottom: 100px;
         }
         .footer img{
             vertical-align: middle;
+            width: auto;
         }
         
         .footer a{
@@ -3089,7 +3231,7 @@
             justify-content: space-between;*/
         }
         .box--footer-container{
-            width: 28%;
+            width: 30%;
             /* border: 1px solid red; */
             flex-shrink: 0;
             padding: 40px 20px;
@@ -3104,11 +3246,15 @@
             color: #20AE3E;
         }
         .box--footer-container p{
-            font-size: 14px;
+            font-size: 12px;
             font-family: 'Source Sans Pro';
         }
         .columns{
             display: flex;
+            flex-direction: row;
+        }
+        .columns div{
+            flex-basis: 47%;
         }
         .event-Container{
             display: flex;
@@ -3174,7 +3320,74 @@
             justify-content: center;
             align-items: center;
         }
-  
+        .redes-sociales{
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .redes-sociales a{
+            max-width: 20px;
+            cursor: pointer;
+        }
+            
+        .redes-sociales  a.facebook {
+            width: 10px;
+            height: 20px;
+            background: url(/images/element-facebook.png);
+            background-position:center center; 
+            background-repeat: no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            transition: .8s;
+        }
+        .redes-sociales  a.facebook:hover {
+            width: 10px;
+            height: 20px;
+            background: url(/images/element-facebook-hover.png);
+            background-position:center center; 
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .redes-sociales  a.twitter {
+            width: 22px;
+            height: 18px;
+            background: url(/images/element-twitter.png);
+            background-position:center center; 
+            background-repeat: no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            transition: .8s;
+        }
+        .redes-sociales  a.twitter:hover {
+            width: 22px;
+            height: 18px;
+            background: url(/images/element-twitter-hover.png);
+            background-position:center center; 
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .redes-sociales  a.instagram {
+            width: 20px;
+            height: 20px;
+            background: url(/images/element-instagram.png);
+            background-position:center center; 
+            background-repeat: no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            transition: .8s;
+        }
+        .redes-sociales  a.instagram:hover {
+            width: 20px;
+            height: 20px;
+            background: url(/images/element-instagram-hover.png);
+            background-position:center center; 
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        
 
 }
 
