@@ -783,7 +783,7 @@
         height: 38px;
     }
     .menu .div-uls-menu{
-        margin-top: 30px;   
+        margin-top: 70px;   
     }
     .menu .div-uls-menu ul li{
         margin-bottom: 35px;
@@ -802,7 +802,7 @@
     }
      .menu.is-active {
         left: 0;
-        padding-top: 70px;
+        padding-top: 120px;
         height: 100%;
         overflow: scroll;
         padding-bottom: 30px;
