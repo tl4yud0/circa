@@ -119,14 +119,61 @@
     .header {
         background-color: white;
         color: white;
-        display: flex;
-        justify-content: space-between;
-        height: 90px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* height: 90px; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* padding: 0 20px; */
+        /* flex-wrap: wrap; */
+        height: 150px;
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        top: 0;
+
     }
+
+    .header-logo-mobile{
+        width: 100%;
+        height: 80px;
+        background: #1b6bd1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        z-index: 5;
+        cursor: pointer;
+    }
+    .header-logo-mobile .header-logo-mobile-svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .header-logo-mobile .header-logo-mobile-svg svg{
+        width: 30px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .header-logo-mobile .header-logo-mobile-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .header-logo-mobile .header-logo-mobile-text p{
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
     ol,
     ul {
         margin: 0;
@@ -627,17 +674,14 @@
         /*border: 1px solid red;*/
         max-width: 1000px;
     /*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
-        flex: 1;
         margin: 0 auto;
-        display: inherit;
-        justify-content: inherit;
-        align-items: inherit;
-        height: inherit;
-        flex-wrap: inherit;
         display: flex;
         flex-direction: column-reverse;
         padding-bottom: 15px;
-        margin-top: 100px;
+        background: white;
+        margin-top: 15px;
+
+        /* margin-top: 100px; */
     }
     .wrapper-container {
         /*border: 1px solid red;*/
@@ -685,11 +729,6 @@
        display: block;
     }
 
-    .header{
-        display: block;
-        height: auto;
-        padding: 0;
-    }
     .header ul{
         display: block;
     }
@@ -725,7 +764,7 @@
         justify-content: center;   
         transition: .3s;
         flex-direction: column;
-        padding-top: 270px;
+        padding-top: 70px;
 
     }
 
@@ -742,7 +781,7 @@
         height: 38px;
     }
     .menu .div-uls-menu{
-        margin-top: 60px;   
+        margin-top: 30px;   
     }
     .menu .div-uls-menu ul li{
         margin-bottom: 35px;
@@ -761,7 +800,7 @@
     }
      .menu.is-active {
         left: 0;
-        padding-top: 270px;
+        padding-top: 70px;
         height: 100%;
         overflow: scroll;
         padding-bottom: 30px;
@@ -915,52 +954,14 @@
         padding-left: 0;
         padding-right: 0;
         padding-top: 0;
+        margin-top: 150px;
     }
     .columns{
         display: flex;
     flex-direction: column;
     }
 
-    .header-logo-mobile{
-        width: 100%;
-        height: 80px;
-        background: #1b6bd1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        z-index: 5;
-        cursor: pointer;
-    }
-    .header-logo-mobile .header-logo-mobile-svg{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 10px;
-    }
-    .header-logo-mobile .header-logo-mobile-svg svg{
-        width: 30px;
-        height: 40px;
-        object-fit: contain;
-    }
-    .header-logo-mobile .header-logo-mobile-text{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 10px;
-    }
-    .header-logo-mobile .header-logo-mobile-text p{
-        font-size: 22px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1;
-        letter-spacing: normal;
-        color: #ffffff;
-        text-transform: uppercase;
-        margin-bottom: 0;
-    }
+    
     .menu-mobile{
         width: 100%;
         display: flex;
@@ -1091,7 +1092,9 @@
 
 
 @media screen and (min-width: 768px){
-    
+    .menu-cerrar-mobile{
+        display: none;
+    }
     .hero .wrapper-container .contenedor{
         z-index: 2;
         width: 60%;
@@ -1818,6 +1821,9 @@
 
 
 @media (min-width: 768px){
+    .menu-cerrar-mobile{
+        display: none;
+    }
     .hero .wrapper-container .contenedor{
         z-index: 2;
         width: 50%;
@@ -2589,6 +2595,9 @@
 }
 
 @media screen and (min-width: 1024px){
+    .menu-cerrar-mobile{
+        display: none;
+    }
     .hero .wrapper-container .contenedor{
         z-index: 2;
         width: 50%;
