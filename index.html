@@ -225,7 +225,7 @@
         </div>
     </section>
     
-    <div class="container">
+    <div class="container" id="Galeria">
         <div class="row">
            <div class="col-lg-12 text-center my-2">
               <h4 class=" border-dark p-2">Galería</h4>
