@@ -144,6 +144,8 @@
         top: 0;
         z-index: 5;
         cursor: pointer;
+        box-shadow: 0 4px 6px 0 rgba(0, 45, 105, 0.34);
+        border: solid 1px #1c69d1;
     }
     .header-logo-mobile .header-logo-mobile-svg{
         display: flex;
