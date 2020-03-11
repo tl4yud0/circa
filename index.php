@@ -40,33 +40,40 @@
                </div>
             </div>
             <nav class="menu">
-                <ul>
-                    <li><a class="link" href="#QuienesSomos">Quienes Somos</a>
-                    </li>
-                    <li><a class="link" href="#MisionVision">Misión/Visión</a>
-                    </li>
-                    <li><a class="link" href="#Ejes">Ejes de Acción</a>
-                    </li>
-                    <li><a class="link" href="#Galeria">Galería</a>
-                    </li>
-                    <li><a class="link" href="#Contacto">Contacto</a>
-                    </li>
-                    <div class="donate">
-                   
-                     <button>  
-                     <svg xmlns="http://www.w3.org/2000/svg" id="prefix___001-leafs" width="15" height="37.926" data-name="001-leafs" viewBox="0 0 30.12 37.926">
-                        <path id="prefix__Tracé_148" d="M183.076.409a1.186 1.186 0 0 0-1.136-.385 19.768 19.768 0 0 0-15.632 17.885c-.838 10.6 12.99 15.219 18.582 6.324A20.1 20.1 0 0 0 183.076.409z" data-name="Tracé 148" transform="translate(-157.845)" style="fill:#9bd75e"/>
-                        <path id="prefix__Tracé_149" d="M74.309 17.91A19.767 19.767 0 0 0 58.677.025a1.187 1.187 0 0 0-1.136.385 20.1 20.1 0 0 0-1.814 23.824c5.599 8.906 19.418 4.245 18.582-6.324z" data-name="Tracé 149" transform="translate(-52.65)" style="fill:#c8f39c"/>
-                        <path id="prefix__Tracé_151" d="M69.092 5.934A19.577 19.577 0 0 0 58.667.025 1.187 1.187 0 0 0 57.53.41a20.078 20.078 0 0 0-4.89 13.306 10.921 10.921 0 0 0 6.109-3.231 18.253 18.253 0 0 1 10.343-4.551z" data-name="Tracé 151" transform="translate(-52.64)" style="fill:#c8f29c"/>
-                        <path id="prefix__Tracé_152" d="M338.472 23.948a20.1 20.1 0 0 0-1.99-23.539 1.186 1.186 0 0 0-1.136-.385 19.418 19.418 0 0 0-3.383 1.028c1.783 1.6 4.522 5.086 3.944 11.118a18.953 18.953 0 0 0 2.565 11.778z" data-name="Tracé 152" transform="translate(-311.252)" style="fill:#9bd65e"/>
-                        <path id="prefix__Tracé_153" d="M148.566 109.487l1.352-3.825a1.186 1.186 0 0 0-2.237-.79l-.468 1.325q-1.025-2.3-2.269-4.614a1.186 1.186 0 0 0-2.089 1.125 60.4 60.4 0 0 1 4.6 10.85l-2.494-.861a1.186 1.186 0 0 0-.775 2.243l4.035 1.394a43.343 43.343 0 0 1 1.169 13.784 1.186 1.186 0 0 0 2.365.19 47.724 47.724 0 0 0-3.189-20.821z" data-name="Tracé 153" transform="translate(-136.033 -93.473)" style="fill:#77a042"/>
-                     </svg>
-                        <span>
-                           Donación
-                        </span>
-                     </button>
-                    </div>
-                </ul>
+                <div class="menu-cerrar-mobile">
+                    <figure class="logo">
+                        <img src="images/menu-cerrar.png" alt="Ricardo" width="110">
+                    </figure>
+                </div>
+                <div class="div-uls-menu">
+                    <ul>
+                        <li><a class="link" href="#QuienesSomos">Quienes Somos</a>
+                        </li>
+                        <li><a class="link" href="#MisionVision">Misión/Visión</a>
+                        </li>
+                        <li><a class="link" href="#Ejes">Ejes de Acción</a>
+                        </li>
+                        <li><a class="link" href="#Galeria">Galería</a>
+                        </li>
+                        <li><a class="link" href="#Contacto">Contacto</a>
+                        </li>
+                        <div class="donate">
+                    
+                        <button>  
+                        <svg xmlns="http://www.w3.org/2000/svg" id="prefix___001-leafs" width="15" height="37.926" data-name="001-leafs" viewBox="0 0 30.12 37.926">
+                            <path id="prefix__Tracé_148" d="M183.076.409a1.186 1.186 0 0 0-1.136-.385 19.768 19.768 0 0 0-15.632 17.885c-.838 10.6 12.99 15.219 18.582 6.324A20.1 20.1 0 0 0 183.076.409z" data-name="Tracé 148" transform="translate(-157.845)" style="fill:#9bd75e"/>
+                            <path id="prefix__Tracé_149" d="M74.309 17.91A19.767 19.767 0 0 0 58.677.025a1.187 1.187 0 0 0-1.136.385 20.1 20.1 0 0 0-1.814 23.824c5.599 8.906 19.418 4.245 18.582-6.324z" data-name="Tracé 149" transform="translate(-52.65)" style="fill:#c8f39c"/>
+                            <path id="prefix__Tracé_151" d="M69.092 5.934A19.577 19.577 0 0 0 58.667.025 1.187 1.187 0 0 0 57.53.41a20.078 20.078 0 0 0-4.89 13.306 10.921 10.921 0 0 0 6.109-3.231 18.253 18.253 0 0 1 10.343-4.551z" data-name="Tracé 151" transform="translate(-52.64)" style="fill:#c8f29c"/>
+                            <path id="prefix__Tracé_152" d="M338.472 23.948a20.1 20.1 0 0 0-1.99-23.539 1.186 1.186 0 0 0-1.136-.385 19.418 19.418 0 0 0-3.383 1.028c1.783 1.6 4.522 5.086 3.944 11.118a18.953 18.953 0 0 0 2.565 11.778z" data-name="Tracé 152" transform="translate(-311.252)" style="fill:#9bd65e"/>
+                            <path id="prefix__Tracé_153" d="M148.566 109.487l1.352-3.825a1.186 1.186 0 0 0-2.237-.79l-.468 1.325q-1.025-2.3-2.269-4.614a1.186 1.186 0 0 0-2.089 1.125 60.4 60.4 0 0 1 4.6 10.85l-2.494-.861a1.186 1.186 0 0 0-.775 2.243l4.035 1.394a43.343 43.343 0 0 1 1.169 13.784 1.186 1.186 0 0 0 2.365.19 47.724 47.724 0 0 0-3.189-20.821z" data-name="Tracé 153" transform="translate(-136.033 -93.473)" style="fill:#77a042"/>
+                        </svg>
+                            <span>
+                            Donación
+                            </span>
+                        </button>
+                        </div>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -450,9 +457,20 @@
     
     
     <script>
+        $(document).ready(function(){
+
+        
         const ipad = window.matchMedia('screen and (max-width: 767px)')
         const menu = document.querySelector('.menu');
         const burgerButton = document.querySelector('#burger-menu');
+
+        // const menu_cerrar = document.querySelector('.menu-cerrar-mobile figure');
+
+        $('.menu-cerrar-mobile figure').click( function(){
+            menu.classList.remove('is-active');
+            $('.menu-mobile').css('visibility','visible')
+            $('body').css({"height": "100vh", "overflow": "scroll"});
+        })
         
         ipad.addListener(validation)
         
@@ -471,12 +489,20 @@
                   $('body').css({"height": "100vh", "overflow": "scroll"});
 
             } else{
-            menu.classList.add('is-active');
+                menu.classList.add('is-active');
+                $('.menu-mobile').css('visibility','hidden')
                 $('body').css({"height": "100vh", "overflow": "hidden"});
-            
-            
-              }
+            }
         }
+
+        $('.menu .div-uls-menu ul li a.link').click(function(){
+            menu.classList.remove('is-active');
+            $('body').css({"height": "100vh", "overflow": "scroll"});
+            $('.menu-mobile').css('visibility','visible')
+        })
+
+
+    })
     </script>
     <script type="text/javascript">
         $(window).load(function(){ 
