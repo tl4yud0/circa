@@ -725,6 +725,7 @@
         justify-content: center;   
         transition: .3s;
         flex-direction: column;
+        padding-top: 230px;
 
     }
 
@@ -763,6 +764,7 @@
         padding-top: 230px;
         height: 100%;
         overflow: scroll;
+        padding-bottom: 30px;
     }
     .project-imageContainer{
         width: auto;
