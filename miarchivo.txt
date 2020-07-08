@@ -1,10 +1,6 @@
-*Name: Mobile *Email: mobile@gmail.com *Option: option2 *Phone: 5523141324
-*Name: Ricardo *Email: malvador@gmail.com *Option: option2 *Phone: 5531241234
-*Name: Ricardo *Email: ricardo@gmail.com *Option: option2 *Phone: 5521312312
-*Name: Herminio *Email: hverab@ultrasist.com.mx *Option: option2 *Phone: 5512342134
-*Name: Herminio *Email: hvera@novasolutionsystems.com *Option: option1 *Phone: 5145123412
-*Name: Herminio *Email: nbacarlosalberto@gmail.com *Option: option1 *Phone: 5512341234
-*Name: Herminio *Email: hverab@ultrasist.com.mx *Option: option1 *Phone: 5512342134
-*Name: Herminio *Email: nbacarlosalberto@gmail.com *Option: option1 *Phone: 5145123412
-*Name: hermminio *Email: sparck_me@hotmail.com *Option: option2 *Phone: 4388818126
-*Name: hermenegukdo *Email: nbacarlosalberto@gmail.com *Option: option3 *Phone: 9876543234
+*Nombre de colaborador: Juan  *Correo electronico: me@jok3r.site *Tipo de colaboracion: Voluntario *Telefono: 12241241
+*Nombre de colaborador: Jok3rcit0 *Correo electronico: jkurtsme@gmail.com *Tipo de colaboracion: Colaborador *Telefono: 979798790
+*Nombre de colaborador: dqsd *Correo electronico: dadsad@dfsasf *Tipo de colaboracion:  *Telefono: asfafasfas
+*Nombre de colaborador: ricardo sanchez esteva *Correo electronico: elmalvador@gmail.com *Tipo de colaboracion: Afiliación *Telefono: 4388818126
+*Nombre de colaborador: hola *Correo electronico: sparck_me@hotmail.com *Tipo de colaboracion: Afiliación *Telefono: 4388742064
+*Nombre de colaborador: asd *Correo: sparck_me@hotmail.com *Tipo de colaborador:  *Tel: 4388742064
