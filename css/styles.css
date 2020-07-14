@@ -776,7 +776,8 @@
         justify-content: flex-start;   
         transition: .3s;
         flex-direction: column;
-        padding-top: 70px;
+        padding-top: 15px;
+        top: 0;
 
     }
 
@@ -816,6 +817,7 @@
         height: 100%;
         overflow: scroll;
         padding-bottom: 30px;
+        top: 0;
     }
     .project-imageContainer{
         width: auto;
